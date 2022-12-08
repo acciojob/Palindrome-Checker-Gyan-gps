@@ -1,7 +1,7 @@
 // complete the given function
 
 function palindrome(str){
-    let str = str.split("");
+    str = str.split("");
     let l = 0, r = str.length;
     while(l<r){
         if(str[l]!==str[r]){
